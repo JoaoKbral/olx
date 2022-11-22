@@ -42,7 +42,7 @@ const Page = () => {
     getUser();
   }, []);
 
-  const setSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setDisabled(true);
     setError("");
@@ -65,7 +65,7 @@ const Page = () => {
       <PageTitle>Alterar Cadastro</PageTitle>
       <PageArea>
         {error && <ErrorMessage>{error}</ErrorMessage>}
-        <form onSubmit={setSubmit}>
+        <form onSubmit={handleSubmit}>
           <label className="area">
             <div className="area--title">Noma Completo</div>
             <div className="area--input">
