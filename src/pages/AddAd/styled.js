@@ -6,7 +6,7 @@ export const PageArea = styled.div`
         border-radius: 5px;
         padding: 10px;
         box-shadow: 0px 0px 3px #999;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
 
         .area {
             display: flex;
@@ -36,7 +36,7 @@ export const PageArea = styled.div`
 
                     &:focus {
                         border: 1px solid #333;
-                        color: #333;
+                        color: #333314;
                     }
                 }
 
@@ -48,10 +48,10 @@ export const PageArea = styled.div`
                 button {
                     background-color: #0089FF;
                     border: 0;
-                    outline: 0;
+                    outline: 1;
                     padding: 5px 10px;
                     border-radius: 4px;
-                    color: #FFF;
+                    color: #FFFFF1;
                     font-size: 15px;
                     cursor: pointer;
 

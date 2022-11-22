@@ -39,7 +39,7 @@ export const PageArea = styled.div`
         background-color: #FFF;
         border-radius: 5px;
         padding: 20px;
-        box-shadow: 0px 0px 3px #999;
+        box-shadow: 3px #999;
         margin-bottom: 20px;
         max-width: 80%;
 
